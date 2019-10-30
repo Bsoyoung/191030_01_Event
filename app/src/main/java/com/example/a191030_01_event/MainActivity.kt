@@ -74,6 +74,14 @@ class MainActivity : AppCompatActivity() {
             !in intList -> Log.d("when연습","a가 intList에 불포함")
         }
 
+        for(name in stringList){
+            Log.d("사람이름",name)
+        }
+
+        for(i in 0..5){
+            Log.d("숫자찍기",String.format("%d",i))
+        }
+
 
     }
 }
